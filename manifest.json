@@ -1,0 +1,25 @@
+{
+  
+  "manifest_version": 2,
+  "name": "ReStyle for Allo",
+  "version": "0.0.1",
+  
+  "description": "A Firefox Quantum add-on used for modifying and improving upon Allo for Web's user-interface.",
+  "homepage_url": "https://github.com/rsruggles/beastify",
+  "icons": {
+    "32": "icons/ReStyle-32.png",
+    "64": "icons/ReStyle-64.png",
+    "128": "icons/ReStyle-128"
+  },
+  
+  "permissions": [
+    "activeTab"
+  ],
+  
+  "browser_action": {
+    "default_icon": "icons/ReStyle-32.png",
+    "default_title": "ReStyle for Allo",
+    "default_popup": "popup.html"
+  }
+  
+}
